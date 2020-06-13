@@ -5,6 +5,7 @@ import { Element } from 'react-scroll';
 
 import Header from './components/header_footer/Header';
 import Featured from './components/featured';
+import VenueNfo from './components/venue NFO'
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
         <Element name="featured">
           <Featured />
         </Element>
+        <VenueNfo />
+
 
 
       </div>
