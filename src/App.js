@@ -10,10 +10,11 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ height: "1500px", background: 'cornflowerblue' }}>
+
         <Header />
-        <div>
+        <Element name="featured">
           <Featured />
-        </div>
+        </Element>
 
 
       </div>
