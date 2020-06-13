@@ -8,6 +8,10 @@ import Featured from './components/featured';
 import VenueNfo from './components/venue NFO'
 import Highlights from './components/Highlights'
 import Pricing from './components/Pricing'
+import Location from './components/Location'
+import Footer from './components/header_footer/Footer';
+
+
 
 
 class App extends Component {
@@ -22,6 +26,10 @@ class App extends Component {
         <VenueNfo />
         <Highlights />
         <Pricing />
+        <Location />
+        <Footer />
+
+
 
 
 
