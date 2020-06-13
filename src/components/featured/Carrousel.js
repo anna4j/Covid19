@@ -44,6 +44,7 @@ const Carrousel = () => {
                 </div>
                 <div>
                     <div
+
                         className="carrousel_image"
                         style={{
                             background: `url(${slide_three})`,
